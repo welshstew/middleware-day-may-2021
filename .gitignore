@@ -1,2 +1,2 @@
-./byo-container/random-letter-generator/node_modules
-./serverless-framework/awsLambdas2openshiftKnative/node_modules
+byo-container/random-letter-generator/node_modules
+serverless-framework/awsLambdas2openshiftKnative/node_modules
