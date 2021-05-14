@@ -1,11 +1,11 @@
-# Middleware Day 14/05/2021
+# Middleware Day 14/05/2021 : Serverless on AWS + some Knative
 
 - Overview of Serverless/Lambda
 - Creating function via the console
 - function via SAM (and invoking locally)
 - lambda - BYO container
 - function via Serverless + Serverless Examples
-- AWS API Gateway -> Lambda -> Knative on Openshift
+- AWS API Gateway -> Lambda -> DynamoDB -> DynamoDB Streams -> Knative pod on Openshift
 
 ## BYO Container...
 
@@ -40,9 +40,9 @@ Note that the IP address / service name is no longer injected into the container
 
 ## Nice Links:
 
-Serverless examples: https://github.com/serverless/examples
-FooBar serverless: https://www.youtube.com/channel/UCSLIvjWJwLRQze9Pn4cectQ
-Lego serverless: https://www.youtube.com/watch?v=HcbnrJdNBRI
-DynamoDB advanced design patterns: https://www.youtube.com/watch?v=HaEPXoXVf2k
-Aurora Serverless: https://aws.amazon.com/rds/aurora/serverless/
-Serverless Handbook: https://serverlesshandbook.dev
+- Serverless examples: https://github.com/serverless/examples
+- FooBar serverless: https://www.youtube.com/channel/UCSLIvjWJwLRQze9Pn4cectQ
+- Lego serverless: https://www.youtube.com/watch?v=HcbnrJdNBRI
+- DynamoDB advanced design patterns: https://www.youtube.com/watch?v=HaEPXoXVf2k
+- Aurora Serverless: https://aws.amazon.com/rds/aurora/serverless/
+- Serverless Handbook: https://serverlesshandbook.dev
