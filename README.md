@@ -16,9 +16,11 @@ Doc in the directory
 See the sample-helm-chart here, and the code is as nodejs-mongodb-crud-api
 
 ```
-https://console-openshift-console.apps.ocp1.purplesky.cloud/
-oc project serverless-demo
+#login to your cluster
+oc new-project serverless-demo
 helm install tutorial1 ./sample-helm-chart/tutorial-crud-api
+#later...
+oc create -f ./nodejs-mongodb-crud-api/knative-service.yaml
 ```
 
 Note that the IP address / service name is no longer injected into the container (strange!).  So we need to ensure:
